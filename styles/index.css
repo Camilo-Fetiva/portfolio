@@ -61,6 +61,9 @@ nav img{
     padding: 4px 16px;
 }
 
+a{
+    text-decoration: none;
+}
 .hero{
     display: flex;
 }
