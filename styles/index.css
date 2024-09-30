@@ -234,18 +234,60 @@ nav img{
     margin-bottom: 32px;
 }
 
+.Education{
+    font-family: var(--tipography2);
+    text-align: center;
+    justify-content: center;
+    margin: 24px;
+    padding-bottom: 16px;
+}
 
+.info-education h1{
+    font-size: 64px;
+}
 
+.card-education{
+    background-color: var(--colorSecundario4);
+    padding: 16px;
+    margin: 16px;
+    border-radius: 16px;
+}
 
+.Education h2{
+    font-size: 32px;
+}
 
+.card-certificates{
+    display: flex;
+    flex-direction: row;
+}
 
+.card-cerf{
+    background-color: var(--colorSecundario4);
+    padding: 16px;
+    margin: 8px;
+    border-radius: 16px;
+    width: 50%;
+}
 
+footer{
+    background-color: var(--colorPrimario1);
+    display: flex;
+}
 
+.info-contact{
+    font-family: var(--tipography2);
+    color: var(--colorBase1);
+    margin: 8px;
+    margin-right: 80px;
+}
 
-@media screen and (max-width: 767px){
-    *{
-        margin: 0;
-        padding: 0;
-        overflow-y: auto;
-    }
+.redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes img{
+    margin: 8px;
 }
