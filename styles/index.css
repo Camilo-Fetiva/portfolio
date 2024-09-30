@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --colorPrimario1: #E63523;
+    --colorPrimario2: #2D2D2C;
+    --colorSecundario1: #636363;
+    --colorSecundario2: #8A8A8A;
+    --colorSecundario3: #B9B9B9;
+    --colorSecundario4: #DADADA;
+    --colorBase1: #F8F8F8;
+    --colorBase2: #1F1E1E;
+
+    --tipography1: "Montserrat Alternates", sans-serif;
+    --tipography2:  "Familjen Grotesk", sans-serif;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-color: var(--colorBase1);
+}
+
+header{
+    width: 100%;
+    background-image: url(/assets/video/img-gif.gif);
+}
+
+nav{
+    display: flex;
+    /* margin-top: 8px; */
+}
+
+nav img{
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.menu{
+    width: 70%;
+    font-family: var(--tipography1);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 10%;
+}
+
+.contact-color{
+    background-color: var(--colorPrimario1);
+    color: var(--colorBase1);
+    padding: 4px 16px;
+}
+
+.contact-color2{
+    background-color: var(--colorSecundario4);
+    color: var(--colorBase2);
+    padding: 4px 16px;
+}
+
+.hero{
+    display: flex;
+}
+
+.card-hero{
+    font-family: var(--tipography1);
+    padding: 8px;
+    width: 80%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    color: var(--colorBase1);
+    
+}
+
+.card-hero h3{
+    font-size: 32px;
+    margin-bottom: -16px;
+}
+
+.card-hero h1{
+    font-size: 64px;
+}
+
+.card-profile{
+    background-color: var(--colorBase2);
+    color: var(--colorBase1);
+    padding: 16px;
+    width: 70%;
+    margin-left: -16px;
+}
+
+.card-profile button{
+    all: unset;
+    background-color: var(--colorPrimario1);
+    color: var(--colorBase1);
+    font-family: var(--tipography1);
+    font-weight: bolder;
+    padding: 8px;
+    margin-top: 8px;
+    border-radius: 4px;
+}
+
+.icons-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons-contact img{
+    padding: 8px;
+}
+
+
+.about{
+    /* background-color: var(--colorPrimario1); */
+    font-family: var(--tipography2);
+}
+
+.info-about{
+    text-align: center;
+    justify-content: center;
+    margin: 24px;
+}
+
+.cuadrado{
+    height: 12px;
+    background-color: var(--colorPrimario1);
+}
+
+.info-about h2{
+    font-size: 32px;
+    margin-bottom: -16px;
+}
+
+.info-about h1{
+    font-size: 64px;
+}
+
+.info-about p{
+    padding: 16px;
+}
+
+.companies{
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.img-companies{
+    display: flex;
+    align-items: center;
+}
+
+.img-company{
+    margin: 6px;
+}
+
+.Projects{
+    /* background-color: var(--colorPrimario1); */
+    font-family: var(--tipography2);
+}
+
+.info-projects{
+    text-align: center;
+    justify-content: center;
+    margin: 24px;
+    font-size: 64px;
+    padding-bottom: 16px;
+}
+
+.card-design{
+    background-color: var(--colorPrimario1);
+    margin: 16px;
+    border-radius: 16px;
+}
+
+.color-card{
+    margin: 16px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
+.info-card{
+    color: var(--colorBase1);
+    margin-right: 40px;
+    font-size: 20px;
+    width: 80%;
+}
+
+.card-design button{
+    all: unset;
+    background-color: var(--colorPrimario2);
+    color: var(--colorBase1);
+    font-family: var(--tipography1);
+    font-weight: bolder;
+    padding: 8px;
+    margin-top: 8px;
+    border-radius: 4px;
+}
+
+
+
+@media screen and (max-width: 767px){
+    *{
+        margin: 0;
+        padding: 0;
+        overflow-y: auto;
+    }
+}
