@@ -68,10 +68,11 @@ nav img{
 .card-hero{
     font-family: var(--tipography1);
     padding: 8px;
-    width: 80%;
-    margin-top: 16px;
-    margin-bottom: 16px;
+    width: 70%;
+    margin: 16px 40px 16px 0px;
     color: var(--colorBase1);
+    backdrop-filter: blur(10px);
+    backdrop-filter: saturate(180%) blur(10px);
 }
 
 .card-hero h3{
@@ -84,7 +85,7 @@ nav img{
 }
 
 .card-profile{
-    background-color: var(--colorBase2);
+    /* background-color: var(--colorBase2); */
     color: var(--colorBase1);
     padding: 16px;
     width: 70%;
@@ -126,6 +127,8 @@ nav img{
 
 .cuadrado{
     height: 12px;
+    width: 20%;
+    margin-left: 40%;
     background-color: var(--colorPrimario1);
 }
 
@@ -176,6 +179,9 @@ nav img{
     padding-bottom: 8px;
 }
 
+.card-design img{
+    border-radius: 16px;
+}
 .color-card{
     margin: 16px;
     display: flex;
@@ -309,6 +315,9 @@ footer{
 
     .card-hero{
         padding-left: 40px;
+        padding-top: 40px;
+        width: 60%;
+        margin-right: 100px;
     }
 
     .card-profile{
@@ -333,6 +342,11 @@ footer{
     }
     .color-card img{
         width: 180px;
+    }
+
+    .card-design{
+        width: 80%;
+        margin: 32px auto;
     }
     .info-skills p{
         font-size: 20px;
@@ -370,5 +384,38 @@ footer{
 }
 
 @media screen and (min-width: 1024px){
+    header{
+        height: 45vh;
+    }
+    .menu{
+        font-size: 32px; 
+    }
+    .card-hero{
+        width: 50%;
+        margin-right: 300px;
+    }
 
+    .info-about img{
+        width: 40%;
+    }
+
+    .Skills img{
+        width: 40%;
+    }
+    .tools-design{
+        font-size: 40px;
+    }
+    .img-tools img{
+        width: 150px;
+    }
+    .Education img{
+        width: 40%;
+    }
+
+    .card-education img{
+        width: 120px;
+    }
+    .redes{
+        margin-left: 350px;
+    }
 }
