@@ -28,11 +28,11 @@ body{
 header{
     width: 100%;
     background-image: url(/assets/video/img-gif.gif);
+    background-size: cover;
 }
 
 nav{
     display: flex;
-    /* margin-top: 8px; */
 }
 
 nav img{
@@ -72,7 +72,6 @@ nav img{
     margin-top: 16px;
     margin-bottom: 16px;
     color: var(--colorBase1);
-    
 }
 
 .card-hero h3{
@@ -116,7 +115,6 @@ nav img{
 
 
 .about{
-    /* background-color: var(--colorPrimario1); */
     font-family: var(--tipography2);
 }
 
@@ -160,7 +158,6 @@ nav img{
 }
 
 .Projects{
-    /* background-color: var(--colorPrimario1); */
     font-family: var(--tipography2);
 }
 
@@ -176,6 +173,7 @@ nav img{
     background-color: var(--colorPrimario1);
     margin: 16px;
     border-radius: 16px;
+    padding-bottom: 8px;
 }
 
 .color-card{
@@ -290,4 +288,87 @@ footer{
 
 .redes img{
     margin: 8px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
+    .menu{
+        width: 90%;
+        font-size: 20px; 
+    }
+
+    .contact-color{
+        margin-top: 16px;
+        padding: 16px 32px;
+    }
+    
+    .contact-color2{
+        margin-top: 16px;
+        padding: 16px 32px;
+    }
+
+    .card-hero{
+        padding-left: 40px;
+    }
+
+    .card-profile{
+        padding: 40px;
+        width: 70%;
+        margin-left: -40px;
+        font-size: 32px;
+    }
+    .info-about p{
+        font-size: 20px;
+    }
+    .companies{
+        font-size: 40px;
+    }
+    .companies img{
+        width: 120px;
+    }
+    .info-card{
+        padding: 40px;
+        font-size: 32px;
+        width: 50%;
+    }
+    .color-card img{
+        width: 180px;
+    }
+    .info-skills p{
+        font-size: 20px;
+    }
+    .tools-design{
+        width: 80%;
+    }
+    .tools-design img{
+        width: 100px;
+        margin: 16px;
+    }
+    .card-education{
+        font-size: 32px;
+    }
+    .card-education img{
+        width: 80px;
+    }
+
+    .card-certificates{
+        font-size: 32px;
+    }
+    .card-certificates img{
+        width: 80px;
+    }
+
+    footer{
+        font-size: 32px;
+    }
+    .redes{
+        margin-left: 150px;
+    }
+    .redes img{
+        width: 50px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+
 }
