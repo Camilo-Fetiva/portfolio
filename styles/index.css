@@ -203,6 +203,43 @@ nav img{
     border-radius: 4px;
 }
 
+.Skills{
+    font-family: var(--tipography2);
+}
+
+.info-skills{
+    text-align: center;
+    justify-content: center;
+    margin: 24px;
+    padding-bottom: 16px;
+}
+
+.info-skills h1{
+    font-size: 64px;
+}
+
+.tools{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: var(--tipography1);
+}
+
+.img-tools img{
+    padding: 8px;
+}
+.design-tools{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+
+
+
+
+
+
 
 
 @media screen and (max-width: 767px){
