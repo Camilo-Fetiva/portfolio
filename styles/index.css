@@ -4,7 +4,7 @@
 }
 
 :root{
-    --colorPrimario1: #E63523;
+    --colorPrimario1: #12303e;
     --colorPrimario2: #2D2D2C;
     --colorSecundario1: #636363;
     --colorSecundario2: #8A8A8A;
@@ -15,6 +15,7 @@
 
     --tipography1: "Montserrat Alternates", sans-serif;
     --tipography2:  "Familjen Grotesk", sans-serif;
+
 }
 
 body{
@@ -27,7 +28,7 @@ body{
 
 header{
     width: 100%;
-    background-image: url(/assets/video/img-gif.gif);
+    background-image: url(/assets/video/img-gif2.jpg);
     background-size: cover;
 }
 
@@ -51,13 +52,21 @@ nav img{
 
 .contact-color{
     background-color: var(--colorPrimario1);
-    color: var(--colorBase1);
+    color: white;
     padding: 4px 16px;
+}
+
+.contact-color a{
+    color: var(--colorBase1);
+}
+
+.contact-color2 a{
+    color: var(--colorBase2);
 }
 
 .contact-color2{
     background-color: var(--colorSecundario4);
-    color: var(--colorBase2);
+    color: var(--colorBase1);
     padding: 4px 16px;
 }
 
@@ -88,7 +97,6 @@ a{
 }
 
 .card-profile{
-    /* background-color: var(--colorBase2); */
     color: var(--colorBase1);
     padding: 16px;
     width: 70%;
@@ -175,38 +183,70 @@ a{
     padding-bottom: 16px;
 }
 
-.card-design{
-    background-color: var(--colorPrimario1);
+.card-design1{
     margin: 16px;
-    border-radius: 16px;
-    padding-bottom: 8px;
+    background-image: url(/assets/projects/img-ramo.png);
+    background-size: cover;
+    height: 23vh;
 }
 
-.card-design img{
-    border-radius: 16px;
-}
-.color-card{
-    margin: 16px;
-    display: flex;
-    align-items: center;
-    justify-self: center;
-}
-
-.info-card{
-    color: var(--colorBase1);
-    margin-right: 40px;
-    font-size: 20px;
-    width: 80%;
-}
-
-.card-design button{
+.card-design1 button{
     all: unset;
-    background-color: var(--colorPrimario2);
     color: var(--colorBase1);
-    font-family: var(--tipography1);
-    font-weight: bolder;
+    background-color: var(--colorPrimario2);
+    margin: 8px;
     padding: 8px;
-    margin-top: 8px;
+    border-radius: 4px;
+    display: flex;
+    
+}
+
+.card-design2{
+    margin: 16px;
+    background-image: url(/assets/projects/img-saggio.png);
+    background-size: cover;
+    height: 23vh;
+}
+
+.card-design2 button{
+    all: unset;
+    color: var(--colorBase1);
+    background-color: var(--colorPrimario2);
+    margin: 8px;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.card-design3{
+    margin: 16px;
+    background-image: url(/assets/projects/img-ecocloset.png);
+    background-size: cover;
+    height: 23vh;
+    
+}
+
+.card-design3 button{
+    all: unset;
+    color: var(--colorBase1);
+    background-color: var(--colorPrimario2);
+    margin: 8px;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.card-design4{
+    margin: 16px;
+    background-image: url(/assets/projects/img-bds.png);
+    background-size: cover;
+    height: 23vh;
+}
+
+.card-design4 button{
+    all: unset;
+    color: var(--colorBase1);
+    background-color: var(--colorPrimario2);
+    margin: 8px;
+    padding: 8px;
     border-radius: 4px;
 }
 
@@ -285,7 +325,7 @@ footer{
 .info-contact{
     font-family: var(--tipography2);
     color: var(--colorBase1);
-    margin: 8px;
+    margin: 24px;
     margin-right: 80px;
 }
 
@@ -338,18 +378,17 @@ footer{
     .companies img{
         width: 120px;
     }
-    .info-card{
-        padding: 40px;
-        font-size: 32px;
-        width: 50%;
+    .card-design1{
+        height: 40vh;
     }
-    .color-card img{
-        width: 180px;
+    .card-design2{
+        height: 40vh;
     }
-
-    .card-design{
-        width: 80%;
-        margin: 32px auto;
+    .card-design3{
+        height: 40vh;
+    }
+    .card-design4{
+        height: 40vh;
     }
     .info-skills p{
         font-size: 20px;
@@ -388,7 +427,7 @@ footer{
 
 @media screen and (min-width: 1024px){
     header{
-        height: 45vh;
+        height: 60vh;
     }
     .menu{
         font-size: 32px; 
@@ -402,15 +441,40 @@ footer{
         width: 40%;
     }
 
+    .img-projects{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .Projects img{
+        width: 40%;
+    }
+
+    .card-design1{
+        height: 30vh;
+    }
+    .card-design2{
+        height: 30vh;
+    }
+    .card-design3{
+        height: 30vh;
+    }
+    .card-design4{
+        height: 30vh;
+    }
+
     .Skills img{
         width: 40%;
     }
+
     .tools-design{
         font-size: 40px;
     }
+
     .img-tools img{
         width: 150px;
     }
+
     .Education img{
         width: 40%;
     }
@@ -418,6 +482,7 @@ footer{
     .card-education img{
         width: 120px;
     }
+
     .redes{
         margin-left: 350px;
     }
