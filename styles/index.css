@@ -188,12 +188,16 @@ a{
     background-image: url(/assets/projects/img-ramo.png);
     background-size: cover;
     height: 23vh;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    
 }
 
 .card-design1 button{
     all: unset;
     color: var(--colorBase1);
-    background-color: var(--colorPrimario2);
+    background-color: var(--colorPrimario1);
     margin: 8px;
     padding: 8px;
     border-radius: 4px;
@@ -206,12 +210,15 @@ a{
     background-image: url(/assets/projects/img-saggio.png);
     background-size: cover;
     height: 23vh;
+    display: flex;
+    justify-content: end;
+    align-items: end;
 }
 
 .card-design2 button{
     all: unset;
     color: var(--colorBase1);
-    background-color: var(--colorPrimario2);
+    background-color: var(--colorPrimario1);
     margin: 8px;
     padding: 8px;
     border-radius: 4px;
@@ -222,13 +229,16 @@ a{
     background-image: url(/assets/projects/img-ecocloset.png);
     background-size: cover;
     height: 23vh;
+    display: flex;
+    justify-content: end;
+    align-items: end;
     
 }
 
 .card-design3 button{
     all: unset;
     color: var(--colorBase1);
-    background-color: var(--colorPrimario2);
+    background-color: var(--colorPrimario1);
     margin: 8px;
     padding: 8px;
     border-radius: 4px;
@@ -239,15 +249,22 @@ a{
     background-image: url(/assets/projects/img-bds.png);
     background-size: cover;
     height: 23vh;
+    display: flex;
+    justify-content: end;
+    align-items: end;
 }
 
 .card-design4 button{
     all: unset;
     color: var(--colorBase1);
-    background-color: var(--colorPrimario2);
+    background-color: var(--colorPrimario1);
     margin: 8px;
     padding: 8px;
     border-radius: 4px;
+}
+
+button:hover{
+    background-color: var(--colorBase2);
 }
 
 .Skills{
@@ -276,6 +293,7 @@ a{
 .img-tools img{
     padding: 8px;
 }
+
 .design-tools{
     margin-top: 32px;
     margin-bottom: 32px;
@@ -389,6 +407,18 @@ footer{
     }
     .card-design4{
         height: 40vh;
+    }
+    .card-design1 button{
+        font-size: 24px;
+    }
+    .card-design2 button{
+        font-size: 24px;
+    }
+    .card-design3 button{
+        font-size: 24px;
+    }
+    .card-design4 button{
+        font-size: 24px;
     }
     .info-skills p{
         font-size: 20px;
